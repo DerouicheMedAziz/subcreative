@@ -1,0 +1,166 @@
+section {
+  padding-left: 175px;
+  padding-right: 175px; }
+
+.section-title {
+  margin-top: 125px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+.section-paragraph {
+  padding-left: 175px;
+  padding-right: 175px;
+  font-size: 18px;
+  text-align: center;
+  color: #BDC3C7; }
+
+.btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  color: white;
+  background-color: #1BBC9B; }
+
+.seperator {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  width: 35px;
+  height: 3px;
+  background-color: #1BBC9B; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+/*----------------------
+        HEADER
+----------------------*/
+.parallax-window {
+  width: 100%;
+  height: 650px;
+  background: transparent; }
+
+header {
+  text-align: center; }
+  header img {
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+    margin-top: 125px;
+    margin-bottom: 0px; }
+  header p {
+    margin-top: 25px;
+    margin-bottom: 65px;
+    padding-left: 375px;
+    padding-right: 375px;
+    color: white;
+    font-size: 22px; }
+
+/*----------------------
+        SERVICE
+----------------------*/
+.service {
+  padding-left: 175px;
+  padding-right: 175px;
+  text-align: center; }
+  .service p {
+    margin-top: 0px;
+    margin-bottom: 100px; }
+  .service button {
+    margin-top: 75px;
+    margin-bottom: 125px; }
+
+.service-item .circle {
+  width: 125px;
+  height: 125px;
+  border-radius: 62.5px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  padding-top: 25px;
+  padding-bottom: 0;
+  background-color: #F2F1EF;
+  display: inline-block; }
+  .service-item .circle i {
+    opacity: 0.5; }
+.service-item div:nth-of-type(2) {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #1BBC9B; }
+.service-item p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #BDC3C7; }
+
+/*----------------------
+       RECENT WORK
+----------------------*/
+.recent-work {
+  padding-left: 175px;
+  padding-right: 175px;
+  text-align: center;
+  background-color: #F2F1EF; }
+  .recent-work p {
+    margin-top: 0px;
+    margin-bottom: 125px; }
+  .recent-work button {
+    margin-top: 75px;
+    margin-bottom: 125px; }
+
+/*----------------------
+       ABOUT ME
+----------------------*/
+.about-me {
+  text-align: center; }
+  .about-me img {
+    width: 175px;
+    height: 175px;
+    border-radius: 87.5px;
+    margin-top: 0px;
+    margin-bottom: 50px; }
+  .about-me button {
+    margin-top: 75px;
+    margin-bottom: 125px; }
+
+/*----------------------
+         FOOTER
+----------------------*/
+footer {
+  padding-left: 175px;
+  padding-right: 175px;
+  background-color: #2C3E50; }
+  footer h2.section-title {
+    text-align: center;
+    color: white; }
+  footer p {
+    margin-top: 0px;
+    margin-bottom: 125px; }
+  footer h3 {
+    text-align: center;
+    color: #1BBC9B; }
+  footer .contact-block {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 250px; }
+  footer .circle-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    text-align: center;
+    background-color: #1BBC9B;
+    display: inline-block; }
+    footer .circle-icon i {
+      color: white; }
+  footer h5 {
+    margin-top: 125px;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

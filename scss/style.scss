@@ -1,0 +1,148 @@
+// IMPORTS
+@import "variables";
+@import "mixins";
+@import "basics";
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/*----------------------
+        HEADER
+----------------------*/
+.parallax-window{
+    width: 100%;
+    height: 650px;
+    background: transparent;
+}
+header{
+    text-align: center;
+    img{
+        @include box-round(125px);
+        @include marginTopBottom(125px, 0px);
+    }
+    p{
+        @include marginTopBottom(25px, 65px);
+        @include paddingLeftRight(375px, 375px);
+        color: white;
+        font-size: 22px;
+    }
+    button{
+        
+    }
+}
+
+
+
+/*----------------------
+        SERVICE
+----------------------*/
+.service{
+    @include paddingLeftRight(175px, 175px);
+    text-align: center;
+    p{
+        @include marginTopBottom(0px, 100px);
+    }
+    button{
+        @include marginTopBottom(75px, 125px);
+    }
+}
+.service-item{
+    .circle{
+        @include box-round(125px);
+        @include marginTopBottom(0px, 35px);
+        @include paddingTopBottom(25px, 0);
+        background-color: $grayBackground;
+        display: inline-block;
+        i{
+            @include opacity(medium);
+        }
+    }
+    div:nth-of-type(2){
+        @include marginTopBottom(0px, 15px);
+        color: $green;
+    }
+    p{
+        @include marginTopBottom(0px, 0px);
+        color: $gray;
+    }
+}
+
+
+
+/*----------------------
+       RECENT WORK
+----------------------*/
+.recent-work{
+    @include paddingLeftRight(175px, 175px);
+    text-align: center;
+    background-color: $grayBackground;
+    p{
+        @include marginTopBottom(0px, 125px);
+    }
+    button{
+        @include marginTopBottom(75px, 125px);
+    }
+}
+
+
+
+
+/*----------------------
+       ABOUT ME
+----------------------*/
+.about-me{
+    text-align: center;
+    img{
+        @include box-round(175px);
+        @include marginTopBottom(0px, 50px);
+    }
+    button{
+        @include marginTopBottom(75px, 125px);
+    }
+}
+
+
+/*----------------------
+         FOOTER
+----------------------*/
+footer{
+    @include paddingLeftRight(175px, 175px);
+    background-color: $blue;
+    h2.section-title{
+        text-align: center;
+        color: white;
+    }
+    p{
+        @include marginTopBottom(0px, 125px);
+    }
+    h3{
+        text-align: center;
+        color: $green;
+    }
+    .contact-block{
+        @include marginTopBottom(25px, 0px);
+        width: 250px;
+    }
+    .circle-icon{
+        @include box-round(50px);
+        @include marginLeftRight(15px, 15px);
+        @include paddingTopBottom(12px, 0);
+        text-align: center;
+        background-color: $green;
+        display: inline-block;
+        i{
+            color: white;
+        }
+    }
+    h5{
+        @include marginTopBottom(125px, 25px);
+        color: white;
+        text-align: center;
+    }
+    
+}

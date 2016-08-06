@@ -1,0 +1,33 @@
+// MIXINS
+@mixin marginTopBottom($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+@mixin marginLeftRight($left, $right){
+    margin-left: $left;
+    margin-right: $right;
+}
+@mixin paddingTopBottom($top, $bottom){
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+@mixin paddingLeftRight($left, $right){
+    padding-left: $left;
+    padding-right: $right;
+}
+@mixin box-round($width){
+    width: $width;
+    height: $width;
+    border-radius: $width/2;
+}
+@mixin opacity($value){
+    @if $value == hight{
+        opacity: 0.8;
+    }
+    @if $value == medium{
+        opacity: 0.5;
+    }
+    @if $value == low{
+        opacity: 0.2;
+    }
+}
